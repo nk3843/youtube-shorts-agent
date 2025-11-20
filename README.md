@@ -79,7 +79,7 @@ Open in browser:
 
 ## 🎥 Architecture
 
-![YouTube Shorts Architecture Diagram](./short_clip.gif)
+![YouTube Shorts Architecture Diagram](./Youtube_short_agent.png)
 
 ## 📁 Project Structure
 
