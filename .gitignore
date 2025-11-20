@@ -1,0 +1,87 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+*.virtualenv
+
+# UV (astral/uv)
+.uv/
+uv.lock
+
+# -----------------------
+# OS / Editor / IDE files
+# -----------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -----------------------
+# Environment Variables
+# -----------------------
+.env
+.env.local
+.env.*
+!.env.example     # allow template
+
+# -----------------------
+# ADK Generated Stuff
+# -----------------------
+# ADK logs
+agents_log/
+**/agent.latest.log
+**/agent.*.log
+
+# ADK build artifacts
+**/__pycache__/
+**/*.generated.*
+
+# -----------------------
+# Docker
+# -----------------------
+docker-data/
+*.tar
+*.tar.gz
+
+# -----------------------
+# Ignore large local files
+# (videos, screenshots, assets)
+# -----------------------
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+
+# If you want to track certain images, remove them above
+
+# -----------------------
+# Project-Specific
+# -----------------------
+# Don't commit your compiled cloud SDK
+google-cloud-sdk/
+google-cloud-cli-darwin-arm.tar.gz
+
+# Deployment artifacts
+deployment/
+deployment_metadata.json
+
+# Local test output
+tests/**/output/
+tests/**/.cache/

@@ -1,0 +1,6 @@
+.git
+__pycache__
+*.pyc
+.env
+uv.lock  # optional to exclude if you don't care about exact locking
+.venv/  # optional to exclude virtual environment folder
