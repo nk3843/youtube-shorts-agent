@@ -87,6 +87,10 @@ Open in browser:
 
 👉 http://localhost:8000
 
+## 🎥 Demo
+
+![YouTube Shorts Agent Demo](./short_clip.gif)
+
 ## 📁 Project Structure
 
 ```text
@@ -116,8 +120,6 @@ Open in browser:
 
 
 
-## 🎥 Demo
 
-![YouTube Shorts Agent Demo](./short_clip.gif)
 
     
