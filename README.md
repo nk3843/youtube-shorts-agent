@@ -33,7 +33,19 @@ It’s designed to be **agentic, modular, and containerized**, so it can run loc
 - Gemini `gemini-2.5-flash-lite` via `google-adk`
 - Docker
 
+## 🚀 Run with Docker
+
+Make sure you have a **valid Google API key** (Gemini API).
+
+```bash
+docker run --rm -p 8000:8000 \
+  -e GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY" \
+  nikhilviky/youtube-agent:latest
 ---
+
+Open in browser:
+
+👉 http://localhost:8000
 
 ## 📁 Project Structure
 
@@ -61,3 +73,11 @@ It’s designed to be **agentic, modular, and containerized**, so it can run loc
     ├── scriptwriter_instruction.txt
     ├── shorts_agent_instruction.txt
     └── visualizer_instruction.txt
+
+
+
+## 🎥 Demo
+
+![YouTube Shorts Agent Demo](./short_clip.gif)
+
+    
