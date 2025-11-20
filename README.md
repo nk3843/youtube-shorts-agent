@@ -1,6 +1,7 @@
 # YouTube Shorts AI Agent (Google ADK + Gemini + Docker)
 
-This project is an **AI-powered YouTube Shorts concept generator** built with the **Google Agent Developer Kit (ADK)** and **Gemini**.
+This project is a **multi-agent YouTube Shorts concept generator** built with the 
+**Google Agent Developer Kit (ADK)** and **Gemini**.
 
 Given a high-level idea, the system:
 
@@ -36,21 +37,6 @@ It’s designed to be **agentic, modular, and containerized**, so it can run loc
 ## 🚀 Run with Docker
 
 Make sure you have a **valid Google API key** (Gemini API).
-
-```bash
-# YouTube Shorts AI Agent (Google ADK + Gemini + Docker)
-
-This project is an **AI-powered YouTube Shorts concept generator** built with the **Google Agent Developer Kit (ADK)** and **Gemini**.
-
-Given a high-level idea, the system:
-
-1. **Writes a short-form script** (optimized for ≤ 60s content)
-2. **Generates visual concepts** for each line/beat
-3. **Formats a final Markdown-ready concept** (script + visuals table + CTA)
-
-It’s designed to be **agentic, modular, and containerized**, so it can run locally via `uv` or in Docker.
-
----
 
 ## ✨ Features
 
@@ -90,6 +76,10 @@ Open in browser:
 ## 🎥 Demo
 
 ![YouTube Shorts Agent Demo](./short_clip.gif)
+
+## 🎥 Architecture
+
+![YouTube Shorts Architecture Diagram](./short_clip.gif)
 
 ## 📁 Project Structure
 
