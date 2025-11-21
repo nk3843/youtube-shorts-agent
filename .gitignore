@@ -65,7 +65,6 @@ docker-data/
 *.mp4
 *.avi
 *.mkv
-*.png
 *.jpg
 *.jpeg
 
