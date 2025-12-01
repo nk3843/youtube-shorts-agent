@@ -85,7 +85,7 @@ Open in browser:
 
 ## 🎥 Demo
 
-![YouTube Shorts Agent Demo](./short_clip.gif)
+![YouTube Shorts Agent Demo](./Agent_LLM_JUDGE.gif)
 
 ## 🎥 Architecture
 
