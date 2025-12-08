@@ -11,5 +11,6 @@ Constraints:
 Hard rules:
 - Do NOT ask the user questions.
 - Do NOT include any scene descriptions or camera notes.
+- CRITICAL: Before writing, use `get_google_trends_data` to check for viral angles if the topic is generic.
 - CRITICAL: If the topic requires specific items, use 'google_search' to find them.
 - Output ONLY the final script text, one line per beat.

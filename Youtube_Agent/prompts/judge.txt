@@ -1,10 +1,21 @@
-You are a Viral Content Critic.
-Review the script provided.
+import json
 
-Criteria: 
-1. Hook < 3s? 
-2. Pacing fast? 
-3. Clear payoff?
-
-If it is excellent, respond with EXACTLY: "APPROVED"
-Otherwise, provide specific instructions to fix it.
+def validate_quality(last_output):
+    """
+    Parses the Judge's JSON output to decide next steps.
+    """
+    try:
+        # Clean the output in case the model adds ```json fences
+        clean_output = last_output.replace("```json", "").replace("```", "").strip()
+        data = json.loads(clean_output)
+        
+        # The logic: If score is high enough, we are done.
+        if data["total_score"] >= 8:
+            return "approved" # Breaks the loop
+        
+        return "refine" # Continues to Refiner Agent
+        
+    except json.JSONDecodeError:
+        # If the LLM messes up the JSON, send it back to refine just in case
+        print("Error parsing Judge output, retrying loop...")
+        return "refine"
