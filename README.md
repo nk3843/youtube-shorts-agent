@@ -223,7 +223,7 @@ Get your API key at: https://aistudio.google.com/app/apikey
 
 ## 📝 License
 
-[Your License Here]
+MIT License - see [LICENSE](./LICENSE) file for details.
 
 ---
 
